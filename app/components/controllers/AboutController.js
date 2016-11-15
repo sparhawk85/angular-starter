@@ -25,8 +25,21 @@ angular.module('mostPopularListingsApp.about', ['ngRoute'])
 	init();
 
 	function init(){
-	
+
 	};
+
+    /**
+	 * Loguje i wyswietla komunikaty
+     */
+	function logAndAlertMessages()
+	{
+        console.log('About message 1');
+        alert('message 1');
+
+        console.log('About message 2');
+        alert('message 2')
+	}
+
 
 	this.message = "Hello About!";
 
